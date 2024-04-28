@@ -1,0 +1,8 @@
+commands:
+  rands:
+    description: "生成给定长度的随机字符串。"
+    messages:
+      lengthRequired: "请指定长度。"
+
+_config:
+  chars: "结果中可包含的字符。"
