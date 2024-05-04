@@ -1,6 +1,6 @@
 {
   "name": "koishi-plugin-random-string",
-  "description": "生成指定长度的随机字符串。",
+  "description": "Koishi插件，用于生成指定长度的随机字符串。",
   "version": "0.0.1",
   "contributors": [
     "TTsdzb <ttsdzb@outlook.com>"
@@ -24,5 +24,13 @@
   ],
   "peerDependencies": {
     "koishi": "^4.17.2"
+  },
+  "koishi": {
+    "description": {
+      "zh": "生成指定长度的随机字符串。"
+    },
+    "locales": [
+      "zh"
+    ]
   }
 }
